@@ -1,0 +1,23 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Search checkpoints - these get very large
+*.isf
+
+# Profiler traces - hundreds of MB each
+trace/
+*.diagsession
+
+# Ad-hoc build artifacts. Compiles run by hand outside the Makefile drop objects
+# and executables into the working directory rather than obj/, so match them by
+# extension rather than trying to list them.
+*.obj
+*.exe
+*.pdb
+*.ilk
